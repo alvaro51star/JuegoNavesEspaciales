@@ -53,12 +53,13 @@
     <UnityVersion>2020.3.23f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Puntuacion.cs" />
-    <Compile Include="Assets\ContadorPuntos.cs" />
-    <Compile Include="Assets\movimientoAsteroide.cs" />
-    <Compile Include="Assets\movimiento.cs" />
-    <Compile Include="Assets\spawnAsteroid.cs" />
-    <Compile Include="Assets\destruirBala.cs" />
+    <Compile Include="Assets\Scripts\Puntuacion.cs" />
+    <Compile Include="Assets\Scripts\ContadorPuntos.cs" />
+    <Compile Include="Assets\Scripts\movimientoAsteroide.cs" />
+    <Compile Include="Assets\Scripts\movimiento.cs" />
+    <Compile Include="Assets\Scripts\spawnAsteroid.cs" />
+    <Compile Include="Assets\Scripts\destruirBala.cs" />
+    <Compile Include="Assets\Scripts\movimientoEnemigoNormal.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
